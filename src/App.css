@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  margin: 0;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.heroMIn {
+  height: calc(100vh - 124px);
+}
+.my_container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.clr_red {
+  color: red;
+}
+
+/* ------------------- font-size ------------------- */
+.fs_14 {
+  font-size: 14px;
+}
+.fs_16 {
+  font-size: 16px;
+}
+.fs_18 {
+  font-size: 18px;
+}
+.fs_20 {
+  font-size: 20px;
+}
+.fs_25 {
+  font-size: 25px;
+}
+.fs_35 {
+  font-size: 35px;
+}
+.fs_50 {
+  font-size: 50px;
+}
+/* ---------------- color ---------------- */
+.text_naviblue {
+  color: #0b132a;
+}
+.text_gray {
+  color: #4f5665;
+}
+.text_red {
+  color: #f53838;
+}
+
+/* ------------------- background-color -------------------  */
+
+/*  ------------------ spaceing ---------------- */
+.lh_25 {
+  line-height: 25px;
+}
+
+.lh_30 {
+  line-height: 30px;
+}
+.lh_50 {
+  line-height: 50px;
+}
+.lh_70 {
+  line-height: 70px;
+}
+
+/* ------------------ btn ---------------- */
+.link_btn {
+  position: relative;
+}
+.link_btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f53855;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: 0.5s;
+}
+.link_btn:hover::before {
+  transform: scaleX(1);
+}
+.sign_up_btn {
+  color: #f53855;
+  border: 1px solid #f53855;
+  padding: 13px 45px;
+  border-radius: 50px;
+}
+.sign_up_btn:hover {
+  background-color: #f53855;
+  color: #fff;
+  transition: 700ms;
+}
+.started {
+  background-color: #f53838;
+  color: #fff;
+  padding: 17px 77px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 0;
+}
+.started:hover {
+  box-shadow: 0px 5px 23px 0px #f53838bd;
+  transition: 700ms;
+}
+.started {
+  background-color: #f53838;
+  color: #fff;
+  padding: 17px 77px;
+  border-radius: 10px;
+}
+.select_btn {
+  color: #f53838;
+  border: 2px solid #f53838;
+  background-color: white;
+  padding: 13px 62px;
+  border-radius: 50px;
+  transition: 700ms;
+}
+
+.subscribe_btn{
+  background-color: #f53838;
+  border: 0 !important;
+  border-radius: 10px;
+  color: white;
+  padding: 17px 65px;
+  transition: 700ms;
+}
+.subscribe_btn:hover{
+  box-shadow: 0px 5px 23px 0px #F53838BD;
+}
+/* ----------------- border ----------------- */
+.border_end_2 {
+  border-right: 2px solid #eeeff2;
+}
+
+.border_1 {
+  border: 2px solid #dddddd;
+}
+/* ----------------- border-radius ---------------- */
+.rounded_10 {
+  border-radius: 10px;
+}
+.blur_14 {
+  backdrop-filter: blur(114px);
+  background-color: #0d1025;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 5%;
+}
+
+/* ----------------- all sides padding ------------------ */
+.pblock_37 {
+  padding-block: 37px;
+}
+.pblock_30 {
+  padding-block: 30px;
+}
+.padding_1 {
+  padding: 80px 70px 50px 70px !important;
+}
+/* ---------------- width ---------------- */
+.w_40 {
+  width: 40%;
+}
+.w_85 {
+  width: 85%;
+}
+
+/* ------------------ hover ---------------- */
+.border_hover {
+  padding: 80px 70px 50px 70px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  transition: 700ms;
+}
+.border_hover:hover {
+  border: 2px solid #f53838;
+}
+.border_hover:hover .select_btn {
+  background-color: #f53838;
+  color: white;
+  box-shadow: 0px 5px 23px 0px #f53838bd;
+}
+.box_{
+  padding: 30px ;
+  border: 2px solid #dddddd;
+  transition: 700ms;
+  border-radius: 10px;
+}
+.box_:hover{
+  border: 2px solid #F53838;
+}
+
+.subscribe_box{
+  padding: 58px 70px ;
+  box-shadow: 0px 40px 20px -15px rgba(13, 16, 37, 0.1) ; 
+  margin-bottom: 20px;
+  position: absolute;
+  width: 100%;
+  top: -10vh;
+}
+.footer_box{
+  height: 85vh;
+}
