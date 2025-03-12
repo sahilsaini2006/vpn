@@ -5,7 +5,7 @@ import location from "../assets/images/png/location.png";
 import server from "../assets/images/png/Server.png";
 import feature from "../assets/images/svg/manyfeatures.svg";
 import green_circle from "../assets/images/png/green_circle.png";
-import free from "../assets/images/png/free.png";
+import free from "../assets/images/png/Free.png";
 import standard from "../assets/images/png/Standard.png";
 import premium from "../assets/images/png/Premium.png";
 import green_tick from "../assets/images/png/tick.png";
